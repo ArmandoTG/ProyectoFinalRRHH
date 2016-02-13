@@ -1,0 +1,167 @@
+﻿@model IEnumerable<ProyectoComisiones.Models.Facturas>
+
+@{
+    ViewBag.Title = "Facturas";
+
+}
+
+
+@*<div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Modal title</h4>
+    </div>*@            <!-- /modal-header -->
+
+
+
+<div class="modal-dialog modal-lg" role="document" id="IdNuevoModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Facturas</h4>
+        </div>
+
+        <div id="cargando" style="display:none; color:Red; border: 1px solid #AA0000; padding: 6px;">
+            <p>Cargando Vista de Facturas ...</p>
+        </div>
+
+
+        <div class="modal-body" id="divTableDataHolder" style="overflow:scroll;height:300px;width:890px;">
+            <table class="table table-striped table-bordered" cellspacing="0" width="100%">
+                <tr>
+                    <th>
+                        CP
+                        @*@Html.DisplayNameFor(model => model.codigo)*@
+                    </th>
+                    <th>
+                        CLIENTE
+                        @*@Html.DisplayNameFor(model => model.apepat)*@
+                    </th>
+                    <th>
+                        FACTURA
+                        @*@Html.DisplayNameFor(model => model.nombre)*@
+                    </th>
+                    <th>
+                        F.EMI
+                        @*@Html.DisplayNameFor(model => model.apepat)*@
+                    </th>
+                    <th>
+                        F.CANC
+                        @*@Html.DisplayNameFor(model => model.apepat)*@
+                    </th>
+                    <th>
+                        VALOR VENTA
+                        @*@Html.DisplayNameFor(model => model.apepat)*@
+                    </th>
+                    <th>
+                        DEBE($)
+                        @*@Html.DisplayNameFor(model => model.apepat)*@
+                    </th>
+
+                    <th>
+                        HABER($)
+                        @*@Html.DisplayNameFor(model => model.apepat)*@
+                    </th>
+                    <th>
+                        DEBE(S/)
+                        @*@Html.DisplayNameFor(model => model.apepat)*@
+                    </th>
+                    <th>
+                        HABER(S/)
+                        @*@Html.DisplayNameFor(model => model.apepat)*@
+                    </th>
+                    <th>
+                        ESTADO
+                        @*@Html.DisplayNameFor(model => model.apepat)*@
+                    </th>
+                    <th>
+                        CONDICION PAGO
+                        @*@Html.DisplayNameFor(model => model.apepat)*@
+                    </th>
+                    <th>
+                        MONE
+                        @*@Html.DisplayNameFor(model => model.apepat)*@
+                    </th>
+
+
+                </tr>
+
+
+
+
+                @if (Model != null)
+                {
+                    foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NCP)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CLIENTE)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NFACTURA)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FEMISION)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FCANCEL)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.VALORDEVENTA)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DEBEDOLAR)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.HABERDOLAR)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DEBESOLES)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.HABERSOLES)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ESTADO)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CONDICIONDEPAGO)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.MONEDA)
+                            </td>
+
+                        </tr>
+                    }
+                }
+
+            </table>
+
+
+
+        </div>            <!-- /modal-body -->
+        @*<div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>*@
+
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+            @*<button  type="button" class="btn btn-primary">Exportar</button>*@
+
+            <button id="myButtonControlID" class="btn btn-primary">Exportar</button>
+
+
+        </div>
+    </div>
+</div>
+       
+<script>
+    $("[id$=myButtonControlID]").click(function (e) {
+        window.open('data:application/vnd.ms-excel,' + encodeURIComponent($('div[id$=divTableDataHolder]').html()));
+        e.preventDefault();
+    });
+</script>

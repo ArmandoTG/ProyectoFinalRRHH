@@ -1,0 +1,242 @@
+﻿
+
+@model IEnumerable<ProyectoComisiones.Models.Home>
+@{
+    ViewBag.Title = "Index";
+
+
+    Layout = "~/Views/Shared/_BootstrapLayout.basic.cshtml";
+
+}
+
+
+
+
+<script>
+    kendo.culture("es-ES");
+
+    $(document).ready(function () {
+        // create DatePicker from input HTML element
+        $("#fchinicio").kendoDatePicker();
+        $("#fchfinal").kendoDatePicker();
+    });
+
+</script>
+
+
+
+@using (Html.BeginForm("Index", "Home"))
+{
+    <fieldset>
+        <legend>Filtros</legend>
+
+        <div class="form-group">
+
+            <table>
+                <tr>
+                    <td>
+                        <label for="inputVendedor" class="col-lg-2 control-label">Vendedor:</label>
+                    </td>
+                    <td>
+                        <div class="col-lg-10">
+                            <div class="btn-toolbar">
+
+                                <div class="btn-group">
+
+                                    @Html.DropDownList("DSC_50", (IEnumerable<SelectListItem>)ViewBag.Vendedores, "--Seleccionar--", new { @class = "btn btn-default dropdown-toggle" })
+
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <label for="inputFechaInicio" class="col-lg-2 control-label">F.Inicio:</label>
+                    </td>
+
+                    <td>
+                        <div class="col-lg-10">
+                            @Html.TextBox("fchinicio", DateTime.Today.ToString("d"))
+                        </div>
+                    </td>
+                    <td>
+                        <label for="inputFechaFin" class="col-lg-2 control-label">F.Fin:</label>
+                    </td>
+                    <td>
+
+                        <div class="col-lg-10">
+                            @Html.TextBox("fchfinal", DateTime.Today.ToString("d"))
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <button type="submit" id="Carga" class="btn btn-primary" >Consultar</button>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </fieldset>
+
+}
+
+
+
+
+
+    @*<table class="table table-striped table-hover">*@
+
+    @*<table class="table table-striped table-bordered" id="mytable">*@
+
+
+<link rel="stylesheet"
+      href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css"></style>
+<script type="text/javascript"
+        src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+
+
+
+
+
+
+<table id="myTable" class="table table-striped table-hover">
+
+    <thead>
+        <tr>
+            <th>
+                Empresa
+                @*@Html.DisplayNameFor(model => model.codigo)*@
+            </th>
+            <th>
+                UUNN
+                @*@Html.DisplayNameFor(model => model.apepat)*@
+            </th>
+            <th>
+                CP
+                @*@Html.DisplayNameFor(model => model.nombre)*@
+            </th>
+            <th>
+                Fch.Doc
+                @*@Html.DisplayNameFor(model => model.apepat)*@
+            </th>
+            <th>
+                Cliente
+                @*@Html.DisplayNameFor(model => model.apepat)*@
+            </th>
+            <th>
+                Importe
+                @*@Html.DisplayNameFor(model => model.apepat)*@
+            </th>
+            <th>
+                Margen(%)
+                @*@Html.DisplayNameFor(model => model.apepat)*@
+            </th>
+            <th>
+                Imp.Margen
+                @*@Html.DisplayNameFor(model => model.apepat)*@
+            </th>
+
+            <th>
+                Segmento
+                @*@Html.DisplayNameFor(model => model.apepat)*@
+            </th>
+            <th>
+                Moneda
+                @*@Html.DisplayNameFor(model => model.apepat)*@
+            </th>
+            <th>
+                Facturas
+            </th>
+            <th>
+                Proveedor
+                @*@Html.DisplayNameFor(model => model.apepat)*@
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Empresa)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UUNN)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CP)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FCH_DOC)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Cliente)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Monto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MARGEN)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ImporteMargen)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TC_D)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TipoMoneda)
+                    </td>
+
+                    <td>
+                        @*@Html.ActionLink("Facturas", "_Facturas", new { NroPedido = item.CP }, null)*@
+
+                        @Ajax.ActionLink("Facturas", // <-- Text to display
+              "Facturas", // <-- Action Method Name
+              new { NroPedido = item.CP },
+
+                 new AjaxOptions
+                 {
+                     UpdateTargetId = "dynamic-modal", // <-- DOM element ID to update
+                     InsertionMode = InsertionMode.Replace, // <-- Replace the content of DOM element
+                     HttpMethod = "GET"// <-- HTTP method
+
+                 },
+                 new
+                  {
+                      //id="load-partial",
+                      data_toggle = "modal",
+                      data_target = "#dynamic-modal"
+                  })
+                    </td>
+                    <td>
+
+                        @Html.ActionLink("Proveedor", "Proveedores", new { id = item.CP, href = "#myModal", data_toggle = "modal" })
+
+
+                    </td>
+                </tr>
+            }
+        }
+
+
+
+    </tbody>
+</table>  
+
+
+
+<script>
+    $(document).ready(function () {
+        $('#myTable').dataTable();
+    });
+</script>
+
+
+<div id="dynamic-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+</div>

@@ -1,0 +1,115 @@
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\ProyectoComisiones.dll.config
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\ProyectoComisiones.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\ProyectoComisiones.pdb
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\Antlr3.Runtime.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\EntityFramework.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\Microsoft.Web.Mvc.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\Newtonsoft.Json.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\System.Net.Http.Formatting.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Http.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Http.WebHost.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Mvc.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Optimization.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Providers.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Razor.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\System.Web.WebPages.Deployment.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\System.Web.WebPages.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\System.Web.WebPages.Razor.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\WebGrease.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\EntityFramework.xml
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\Newtonsoft.Json.xml
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\System.Net.Http.Formatting.xml
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Http.xml
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Http.WebHost.xml
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Mvc.xml
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Razor.xml
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\System.Web.WebPages.xml
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\System.Web.WebPages.Deployment.xml
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\System.Web.WebPages.Razor.xml
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\es\EntityFramework.resources.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.Http.resources.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.Mvc.resources.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.Optimization.resources.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.Providers.resources.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.Razor.resources.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.WebPages.resources.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\obj\Debug\ProyectoComisiones.csprojResolveAssemblyReference.cache
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\obj\Debug\ProyectoComisiones.dll
+C:\Users\atipacti\Documents\Visual Studio 2013\Projects\ProyectoComisiones\ProyectoComisiones\obj\Debug\ProyectoComisiones.pdb
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\ProyectoComisiones.dll.config
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\ProyectoComisiones.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\ProyectoComisiones.pdb
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\Antlr3.Runtime.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\EntityFramework.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\Microsoft.Web.Infrastructure.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\Microsoft.Web.Mvc.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\Newtonsoft.Json.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Net.Http.Formatting.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Http.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Http.WebHost.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Mvc.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Optimization.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Providers.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Razor.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.WebPages.Deployment.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.WebPages.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.WebPages.Razor.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\WebGrease.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\EntityFramework.xml
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\Newtonsoft.Json.xml
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Net.Http.Formatting.xml
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Http.xml
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Http.WebHost.xml
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Mvc.xml
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Razor.xml
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.WebPages.xml
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.WebPages.Deployment.xml
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.WebPages.Razor.xml
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\EntityFramework.resources.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Net.Http.Formatting.resources.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.Http.resources.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.Http.WebHost.resources.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.Mvc.resources.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.Optimization.resources.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.Providers.resources.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.Razor.resources.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.WebPages.resources.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\obj\Debug\ProyectoComisiones.csprojResolveAssemblyReference.cache
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\obj\Debug\ProyectoComisiones.dll
+D:\PROYECTOS-.NET MVC\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\obj\Debug\ProyectoComisiones.pdb
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\ProyectoComisiones.dll.config
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\ProyectoComisiones.dll
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\ProyectoComisiones.pdb
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\EntityFramework.xml
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\Newtonsoft.Json.xml
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Http.xml
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Mvc.xml
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.Razor.xml
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.WebPages.xml
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\EntityFramework.resources.dll
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.Http.resources.dll
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.Providers.resources.dll
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.Razor.resources.dll
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\obj\Debug\ProyectoComisiones.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\obj\Debug\ProyectoComisiones.dll
+C:\Users\Administrador\Documents\Proyecto MVC.NET13.02.2016\ProyectoComisiones\ProyectoComisiones\obj\Debug\ProyectoComisiones.pdb

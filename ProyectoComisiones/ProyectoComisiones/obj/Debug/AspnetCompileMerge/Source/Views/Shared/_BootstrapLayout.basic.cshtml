@@ -1,0 +1,117 @@
+﻿@using System.Web.Optimization
+@using BootstrapSupport
+@using NavigationRoutes
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+
+
+        <meta charset="utf-8">
+        <title>@ViewBag.Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="@Styles.Url("~/content/css")" rel="stylesheet"/>
+
+        <link href="~/styles/kendo.common.min.css" rel="stylesheet" />
+        <link href="~/styles/kendo.rtl.min.css" rel="stylesheet" />
+        <link href="~/styles/kendo.default.min.css" rel="stylesheet" />
+        <link href="~/styles/kendo.dataviz.min.css" rel="stylesheet" />
+        <link href="~/styles/kendo.dataviz.default.min.css" rel="stylesheet" />
+        <link href="~/styles/kendo.default.mobile.min.css" rel="stylesheet" />
+        <script src="~/js_/jquery.min.js"></script>
+        <script src="~/js_/angular.min.js"></script>
+        <script src="~/js_/kendo.all.min.js"></script>
+        <script src="~/js_/cultures/kendo.culture.es-ES.min.js"></script>
+        <script src="~/Scripts/jquery-{version}.js"></script>
+        <script src="~/Scripts/jquery-migrate-{version}.js"></script>
+        <script src="~/Scripts/bootstrap.js"></script>
+        <script src="~/Scripts/jquery.validate.js"></script>
+
+        <script src="jquery.js"></script>
+        <script src="bootstrap-modal.js"></script>
+        <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+       
+
+        <link href="~/Content/bootstrap-table.css" rel="stylesheet" />
+        <script src="~/js_/bootstrap-table.js"></script>
+        <script src="~/js_/tableExport.js"></script>
+        <script src="~/js_/bootstrap-table-export.js"></script>
+        <script src="~/js_/lodash.min.js"></script>
+       
+
+        @*Referencia para el estilo de y paginacion de las tablas, en caso deje de funcionar los link dentro de la vista index*@
+        <link href="~/Content/jquery.dataTables.min.css" rel="stylesheet" />
+        <script src="~/Scripts/jquery.dataTables.min.js"></script>
+
+
+
+        @RenderSection("head", required: false)
+        @Html.Partial("_html5shiv")
+        @* favicons and touch icons go here *@
+
+
+
+
+
+
+
+
+    </head>
+    <body>
+
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div  class="navbar-inner">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">COSAPI</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">Link</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+ 
+
+
+                    <div class="nav-collapse collapse">
+                          @Html.Navigation()
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <div class="container">
+
+
+
+
+            @Html.Partial("_alerts")
+            @Html.Partial("_validationSummary")
+            @RenderBody()   
+            <hr>
+            <footer>
+                <p>&copy; COSAPI DATA @System.DateTime.Now.ToString("yyyy")</p>
+            </footer> 
+        </div>
+         @*@Scripts.Render("~/js")*@
+         @RenderSection("Scripts", required: false)
+    </body>
+</html>
+
